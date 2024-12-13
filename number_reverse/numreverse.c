@@ -25,7 +25,7 @@ int reverseint(int temp) {
 
     while (temp > 0) {
         rem = rem * 10 + temp % 10; 
-        temp / 10; 
+        temp /= 10; 
     }
 
     return rem;
