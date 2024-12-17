@@ -13,6 +13,7 @@ void subtract(int num1, int num2) {
     float result = num1 - num2;
     print_result(result);
 }
+
 void multiply(int num1, int num2) {
     float result = num1 * num2;
     print_result(result);
@@ -56,7 +57,8 @@ int main() {
             break;
         default:
             printf("Invalid operator. Please use 'a', 's', 'm', or 'd'.\n");
+            break; // Optional but good practice
     }
 
-    return 0;
+    return 0;
 }
